@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+<style media="screen">
+li{
+  transition: all 3s;
+}
+li:hover {
+  background: yellow;
+  color: black;
+  transform: scale(3) translateX(300px);
+}
+img{
+  max-width: 70px;
+}
+ul{
+  margin-top: 10px;
+}
+@keyframes pulse {
+  from {
+    transform: scale3d(1, 1, 1);
+  }
+
+  50% {
+    transform: scale3d(1.05, 1.05, 1.05);
+  }
+
+  to {
+    transform: scale3d(1, 1, 1);
+  }
+}
+img:hover {
+  animation: pulse 1s infinite;
+}
+</style>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+<img src="http://www.vectortemplates.com/raster/batman/batman-logo-big.gif" alt="Batman!!!" />
+  <table>
+<tr>
+  <td>Synergy</td>
+  <td>Cohesion</td>
+  <td>Propinquity</td>
+</tr>
+</table>
+  </body>
+</html>
